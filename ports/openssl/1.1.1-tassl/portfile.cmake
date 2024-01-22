@@ -15,9 +15,9 @@ set(OPENSSL_VERSION 1.1.1)
 
 vcpkg_download_distfile(
     ARCHIVE
-    URLS "https://github.com/FISCO-BCOS/TASSL-1.1.1b/archive/f9d60fa510e5fbe24413b4abdf1ea3a48f9ee6aa.tar.gz"
-    FILENAME "tassl-1.1.1b.tar.gz"
-    SHA512 d3a56ef0d6095a1127b83248cd3e3493434a5026cbc6371f08281a75b181a835e756f2bdafd54a686c8220be69ebcdc7abe8184a0d162840ee975a372ca985de
+    URLS "https://codeload.github.com/lzy804924995/TASSL/tar.gz/refs/tags/yhl"
+    FILENAME "tassl-yhl.tar.gz"
+    SHA512 70faf220ac869a2d0d03de91d46205cf619ea279e0fe39942976aee9d375425413c9a4de135e7b2dc2e0013e5b2d84343dc5ed150a4bfce704cf2fbf48e4eab2
 )
 
 vcpkg_find_acquire_program(PERL)
