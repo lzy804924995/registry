@@ -15,9 +15,9 @@ set(OPENSSL_VERSION 1.1.1)
 
 vcpkg_download_distfile(
     ARCHIVE
-    URLS "https://codeload.github.com/lzy804924995/TASSL/tar.gz/refs/tags/yhl"
-    FILENAME "tassl-yhl.tar.gz"
-    SHA512 70faf220ac869a2d0d03de91d46205cf619ea279e0fe39942976aee9d375425413c9a4de135e7b2dc2e0013e5b2d84343dc5ed150a4bfce704cf2fbf48e4eab2
+    URLS "https://codeload.github.com/lzy804924995/openssl/tar.gz/refs/tags/openssl-3.3.0"
+    FILENAME "openssl-3.3.0.tar.gz"
+    SHA512 42cc11475d8b31706ec151c9aed0178e17b788c6b38636ae1cde363872139ed85f5b9efd0c75012f4d6f15ec8100e1afe5d528e72b88a5d3dea4125c9b0804aa
 )
 
 vcpkg_find_acquire_program(PERL)
